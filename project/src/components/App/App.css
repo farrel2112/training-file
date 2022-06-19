@@ -1,0 +1,14 @@
+body{
+  background-color: darkgrey;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding:1px 20px;
+  
+}
+h1{
+  width: 100%;
+  text-align: center;
+}

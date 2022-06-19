@@ -1,0 +1,54 @@
+#card {
+    width: 420px;
+    height: 250px;
+    background-color: rgba(6, 105, 19, 0.623);
+    margin: 100px auto;
+    padding: 5px 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+.clasico {
+    color: rgb(216, 219, 212);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.hbd {
+    color: gold;
+}
+body {
+    background-color: rgb(20, 131, 116);
+}
+
+.fafa {
+    border: 1px solid yellow;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: yellow;
+    animation: move 5s linear infinite;
+    -webkit-animation: move 5s linear infinite;
+}
+@keyframes move {
+    from {
+        background-color: black;
+        opacity: 0.5;
+    }
+    to {
+        transform: translateX(600px);
+        -webkit-transform: translateX(600px);
+        -moz-transform: translateX(600px);
+        -ms-transform: translateX(600px);
+        -o-transform: translateX(600px);
+        background-color: green;
+        opacity: 1;
+    }
+}

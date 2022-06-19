@@ -1,0 +1,17 @@
+.myNumbers{
+    border : 2px solid orange;
+    border-radius : 20px;
+   /* margin-bottom : 10px;*/
+    text-align : center;
+    background-color :#491111 ;
+    color : #C0C0C0;
+    padding : 2px 15px;
+    /*margin-right : 20px;*/
+   
+}
+body{
+    margin : 0;
+    background-color: cyan;
+    display : grid;
+    grid-template-columns : repeat(3,1fr);
+}

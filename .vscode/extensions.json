@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "coenraads.bracket-pair-colorizer-2"
+    ]
+    
+"editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  }
+  {
+    "auto-close-tag.enableAutoCloseTag": true
+    }
+}

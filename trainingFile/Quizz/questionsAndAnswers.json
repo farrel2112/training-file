@@ -1,0 +1,74 @@
+{
+    "easyQuestions" : [
+        "Quelle est la capitale du Gabon?",
+        "Dans quel département se trouve la ville de Ntoum ?",
+        "Qui fut le premier président du Gabon ?",
+        "Quel parti est au pouvoir au Gabon depuis son indépendance?",
+        "En quelle année le président Omar BONGO est-il décédé ?",
+        "Quel est le plus grand fleuve du Gabon ?",
+        "Quel jour célèbre t-on la fête nationale au Gabon ?",
+        "Combien de provinces compte le Gabon ?",
+        "En quelle année l'indépendance du Gabon fût elle proclamée?"
+    ],
+    "Reponses" : [
+        [
+            "Libreville",
+            "Moanda",
+            "Ntoum",
+            "Mouila"
+        ],
+        [
+            "Douya-Onoye",
+            "Louetsi",
+            "Le var",
+            "Komo-Mondah"
+        ],
+        [   "Leon Mba",
+            "Ali Bongo",
+            "Jean Ping",
+            "Rose Francine Rogombé"
+        ],
+        [   "PDG",
+            "RPG",
+            "UN",
+            "CLR"
+        ],
+        [   "2020",
+            "2008",
+            "2009",
+            "2010"
+        ],
+        [   "La Ngounié",
+            "Le Ntem",
+            "L'Ogouée",
+            "La Nyanga"
+        ],
+        [   "Le 31 décembre",
+            "Le 12 mars",
+            "Le 14 février",
+            "Le 17 août"
+        ],
+        [   "8",
+            "10",
+            "9",
+            "5"
+        ],
+        [
+            "1958",
+            "1990",
+            "1960",
+            "1993"
+        ]
+    ],
+    "rightAnswers" : [
+        "1960",
+        "Libreville",
+        "2008",
+        "PDG",
+        "Leon Mba",
+        "Komo-Mondah",
+        "Le 17 août",
+        "L'Ogouée",
+        "9"
+    ]
+}

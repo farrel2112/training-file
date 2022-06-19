@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="jeu.css">
+		<title>Number guessing game</title>
+	</head>
+
+  <body>
+		<div class="card">
+			<h1>Déviner le nombre aléatoire</h1>
+
+			<p class ='first'>J'ai sélectionné un nombre aléatoire entre 1  et 100.
+				 Voyons si tu peux le déviner en 10 essais ou moins. 
+				 Je te dirai à chaque fois si le nombre que tu as
+				  entré est trop élevé ou trop faible.</p>
+			<input type="text" placeholder="Entrez votre nom" class="nom">
+			<input type="submit" value="Valider" class="valider">
+			<div class="form">
+				<input type="text" id="guessField" class="guessField" placeholder="Entrez un nombre">
+				<input type="submit" value=" Envoyer" class="guessSubmit">
+			</div>
+
+			<div class="resultParas">
+				<p class="guesses"></p>
+				<p class="enterName"></p>
+				<p class="lastResult"></p>
+				<p class="lowOrHi"></p>
+				<h2 class="player-name"></h2>
+				<h2 class="countdown"></h2>
+				<h2 class="score"></h2>
+			</div>
+
+		</div>
+    
+    <script src="jeu.js">
+    </script>
+  </body>
+</html>

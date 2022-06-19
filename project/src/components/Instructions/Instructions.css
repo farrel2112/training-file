@@ -1,0 +1,11 @@
+.card {
+    display:flex;
+    flex-direction: column;
+    padding: 1px 15px;
+    border: 1px solid black;
+    margin-right: 3px;
+}
+button {
+    background: blue;
+    color: white;
+}

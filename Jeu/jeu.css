@@ -1,0 +1,41 @@
+
+  body{
+      background-color:darkslategray;
+  }
+  .first{
+    color :rgb(5, 4, 4);
+  }
+
+  .card{
+    width: 550px;
+    height: 590px;
+    margin: 0 auto;
+    background: linear-gradient(130deg,cyan 0%,skyblue 75%,blue 100%) no-repeat;
+    border: 1px solid grey;
+    padding:5px 10px;
+    color:brown;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+}
+  input,.valider{
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 4px;
+      
+  }
+
+  .lastResult,.guesses{
+    color: rgb(5, 4, 4);
+    padding: 3px;
+    font-size: 20px;
+  }
+  button{
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 20px;
+  }
