@@ -1,0 +1,33 @@
+<html style='background-color: black'>
+  <div id="my_bouncing_box" style= "background-color: blue; border-radius: 3px; position: absolute; left: 0px; top: 0px; min-width: 100px; min-height: 100px; text-align: center; font-weight: bold; color: #999;" >farrel-_b </div>
+  <script type="text/javascript">
+    // YOUR CODE
+    let x = 0;
+    let y = 0;
+    let xdir = 1;
+    let ydir = 1;
+    
+    function my_bouncing_box(){
+        
+        
+        let windowWidth = window.innerWidth;
+        let windowHeight = window.innerHeight;
+        let box = document.getElementById('my_bouncing_box');
+        let cordBox = box.getBoundingClientRect();
+        x += xdir;
+        y += ydir;
+        box.style.left = `${x}px`;
+        box.style.top = `${y}px`;
+        if(x + cordBox.width > windowWidth || x < 0){
+            
+            xdir *= -1;
+        }
+        if(y + cordBox.height> windowHeight || y < 0){
+            
+            ydir *= - 1;
+        }
+
+    }
+    setInterval(my_bouncing_box,300);
+  </script>
+</html>
